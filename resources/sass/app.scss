@@ -1,0 +1,128 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//vutify
+@import '~vuetify/dist/vuetify.min.css';
+
+//material
+@import '~material-design-icons-iconfont/dist/material-design-icons.scss';
+
+//font awsome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+*{
+    word-break: break-word;
+    /* text-transform: capitalize; */
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.02rem;
+}
+
+.forSpanClick {
+    color: blue;
+    cursor: pointer;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .3s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+}
+
+/* shadow in the BG */
+.background-shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    }
+
+/*  previous Price for line through */
+.previousPrice {
+    font-size: 13px;
+
+    text-decoration: line-through;
+    color: #878787;
+}
+
+/* discount  */
+.discount {
+    color: #ef6c3c;
+    font-size: 14px;
+}
+
+.sticky {
+    position: sticky;
+    top: 70px;
+}
+
+/* for produt rating  */
+.rating {
+    background-color: #ef6c3c;
+    line-height: normal;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 5px 2px 6px;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    vertical-align: middle;
+    /* width: 16%; */
+    opacity: 0.8;
+}
+
+.width1400{
+    max-width: 1400px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.v-progress-circular {
+
+    margin: 1rem
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 7px;
+
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: hsla(0, 0%, 53.3%, .4);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+/*  Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+
+}
